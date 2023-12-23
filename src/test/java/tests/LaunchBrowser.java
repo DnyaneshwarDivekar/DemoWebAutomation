@@ -4,10 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
+import base.TestBase;
 
 
-public class LaunchBrowser extends BaseTest  {
+public class LaunchBrowser extends TestBase  {
 	
 	
 	@Test

@@ -7,17 +7,20 @@ import org.testng.annotations.BeforeClass;
 
 import utils.WebDriverFactory;
 
-public class BaseTest {
+public class TestBase {
 
     protected WebDriver driver;
 
     @BeforeClass
     public void setUp() {
         driver = WebDriverFactory.getDriver();
+//        driver.get("https://dd-demo-tau.vercel.app/");
     }
 
-    @AfterClass
-    public void tearDown() {
-        WebDriverFactory.quitDriver();
-    }
+//    @AfterClass
+//    public void tearDown() {
+//        WebDriverFactory.quitDriver();
+//    }
+    
+   
 }

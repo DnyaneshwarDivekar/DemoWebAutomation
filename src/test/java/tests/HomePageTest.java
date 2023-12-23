@@ -2,13 +2,13 @@ package tests;
 
 
 import pages.HomePage;
-import base.BaseTest;
+import base.TestBase;
 import utils.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class HomePageTest extends BaseTest {
+public class HomePageTest extends TestBase {
 
     @Test
     public void testHomePageLoginLink() {
