@@ -4,11 +4,11 @@ package tests;
 
 import pages.HomePage;
 import pages.LoginPage;
-import base.BaseTest;
+import base.TestBase;
 import utils.WebDriverFactory;
 import org.testng.annotations.Test;
 
-public class LoginTest extends BaseTest {
+public class LoginTest extends TestBase {
 
     @Test
     public void testLogin() {
