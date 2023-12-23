@@ -17,10 +17,10 @@ public class TestBase {
 //        driver.get("https://dd-demo-tau.vercel.app/");
     }
 
-//    @AfterClass
-//    public void tearDown() {
-//        WebDriverFactory.quitDriver();
-//    }
+    @AfterClass
+    public void tearDown() {
+        WebDriverFactory.quitDriver();
+    }
     
    
 }

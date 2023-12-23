@@ -1,0 +1,8 @@
+tests\Test2.class
+base\TestBase.class
+tests\HomePageTest.class
+tests\Test1.class
+tests\LaunchBrowser.class
+sample_tests\Test1.class
+tests\LoginTest.class
+textboxTests\SubmitFormTest.class
